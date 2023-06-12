@@ -1,0 +1,9 @@
+﻿using Foundation;
+
+namespace CanadianHolidayChallenge;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
