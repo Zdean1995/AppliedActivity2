@@ -14,7 +14,7 @@ namespace CanadianHolidayChallenge.Models
         public string NameFr { get; set; }
         public int Federal { get; set; }
         public string observedDate { get; set; }
-        public Province[] Provinces { get; set; }
+        public List<Province> Provinces { get; set; }
 
     }
 }

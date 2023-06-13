@@ -10,6 +10,7 @@
     <VerticalStackLayout>
         <Label 
             x:Name="HolidayList"
+            Text="{Binding APIText}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
